@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<widget xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" 
+        vendor="CoNWeT" name="basic-chat" version="1.0.1">
+    <details>
+        <title>Basic chat</title>
+        <homepage>https://github.com/wirecloud-fiware/quick-start-development-tutorial</homepage>
+        <authors>Miguel Jimenez &lt;mjimenez@fi.upm.es&gt;</authors>
+        <contributors>Álvaro Arranz &lt;aarranz@fi.upm.es&gt;</contributors>
+        <email>wirecloud@conwet.com</email>
+        <image>images/chat_logo.png</image> <!-- 170x80 -->
+        <description>Basic chat functionality and WireCloud features demonstrator</description>
+        <longdescription>README.md</longdescription>
+        <license>AGPLv3+ w/linking exception</license>
+		<licenseurl>http://www.gnu.org/licenses/agpl-3.0.html</licenseurl>
+		<doc>doc/developer-guide.md</doc>
+    </details>
+    <contents src="index.html" useplatformstyle="true"/>
+    <rendering width="5" height="24"/>
+    <preferences>
+        <preference name="gravatar" type="text" label="Gravatar URL" 
+                    description="URL to the gravatar profile of the user" />
+    </preferences>
+    <wiring>
+        <outputendpoint name="sendMsg" type="text" label="Send a message" 
+                        description="The messages sent by the user" 
+                        friendcode="message"/>
+        <inputendpoint name="receiveMsg" type="text" label="Receive a message"  
+                       description="Receive messages sent by other widgets can be received" 
+                       friendcode="message" />
+    </wiring>
+</widget>

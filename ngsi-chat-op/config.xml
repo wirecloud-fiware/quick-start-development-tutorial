@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<operator xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="CoNWeT" name="ngsi-chat-op" version="1.0.1">
+    <details>
+        <title>NGSI chat operator</title>
+        <homepage>https://conwet.fi.upm.es/widgets/basic-chat</homepage>
+        <authors>Miguel Jiménez</authors>
+        <email>mjimenez@fi.upm.es</email>
+        <image>images/operator_logo.png</image> <!-- 170x80 -->
+        <description>Connect to Orion Context Broker through NGSI WireCloud API for chat room</description>
+        <longdescription>README.md</longdescription>
+        <license>AGPLv3+ w/linking exception</license>
+        <licenseurl>http://www.gnu.org/licenses/agpl-3.0.html</licenseurl>
+		<doc>doc/developer-guide.md</doc>
+    </details>
+    <requirements>
+        <feature name="NGSI"/>
+    </requirements>
+    <preferences>
+        <preference name="ngsi_server" type="text" label="NGSI server URL" description="URL of the Orion Context Broker to use for retrieving entity information" default="http://orion.lab.fi-ware.org:10026/"/>
+        <preference name="ngsi_proxy" type="text" label="NGSI proxy URL" description="URL of the PubSub Context Broker proxy to use for receiving notifications about changes" default="https://ngsiproxy.lab.fi-ware.org/"/>
+        <preference name="chatroom" type="text" label="Chat room" description="Chat room to send and receive messages" default="initial-room"/>
+    </preferences>
+    <wiring>
+        <outputendpoint name="toBeReceived" type="text" label="Messages from NGSI" description="Forward a message to a chat widget" friendcode="message" />
+        <inputendpoint name="toBeSent" type="text" label="Message to NGSI"  description="Receive messages to be sent to the chat room" friendcode="message" />
+    </wiring>
+    <scripts>
+        <script src="js/main.js"/>
+    </scripts>
+
+</operator>

@@ -1,0 +1,34 @@
+body {  padding: 0;
+        margin: 0;
+        font-family: sans-serif;
+        color: #333;}
+#photo {padding: 3px;
+        border: 2px solid #eaeaea;
+        max-height: 48px;
+        max-width: 48px;
+        float:left;}
+.sent,.received {
+        min-height: 36px;
+        padding: 2px;
+        border: 1px solid #eaeaea;
+        border-radius: 5px;}
+.sent{  margin: 1px 35px 1px 1px;}
+.received{ margin: 1px 1px 1px 35px;
+        text-align: right;}
+.received > p{ display: inline;}
+.sent > img{ max-height: 28px;
+        max-width: 28px;
+        margin: 2px;
+        float:left;}
+.sent > p{ display:inline;}
+.received > img{ max-height: 28px;
+        max-width: 28px;
+        margin: 2px;
+        float:right;}
+#username { display: inline;}
+#conversations { height: 65%;
+        overflow: scroll;}
+#footer{position: fixed;
+        bottom: 0;}
+#header{height:60px;}
+body,html { height: 100%;}
