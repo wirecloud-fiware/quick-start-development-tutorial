@@ -12,7 +12,7 @@
         <longdescription>README.md</longdescription>
         <license>Apache License 2.0</license>
         <licenseurl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseurl>
-		<doc>doc/developer-guide.md</doc>
+        <doc>doc/developer-guide.md</doc>
     </details>
     <contents src="index.html" useplatformstyle="true"/>
     <rendering width="5" height="24"/>

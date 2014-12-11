@@ -19,8 +19,8 @@ Like widgets, the `config.xml` has vendor, name and version information that sho
             <image>images/operator_logo.png</image> <!-- 170x80 -->
             <description>Connect to Orion Context Broker through NGSI WireCloud API for chat room</description>
             <longdescription>README.md</longdescription>
-            <license>AGPLv3+ w/linking exception</license>
-            <licenseurl>http://www.gnu.org/licenses/agpl-3.0.html</licenseurl>
+            <license>Apache License 2.0</license>
+            <licenseurl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseurl>
             <doc>doc/developer-guide.md</doc>
         </details>
         <scripts>

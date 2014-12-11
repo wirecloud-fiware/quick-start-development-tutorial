@@ -9,16 +9,16 @@ The first step is to build a blank widget. It must have defined the metadata and
     <widget xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="CoNWeT" name="basic-chat" version="0.1">
         <details>
             <title>Basic chat</title>
-            <homepage>https://conwet.fi.upm.es/widgets/basic-chat</homepage>
-            <authors>Miguel Jiménez</authors>
-            <email>mjimenez@fi.upm.es</email>
+            <homepage>https://github.com/wirecloud-fiware/quick-start-development-tutorial</homepage>
+            <authors>Miguel Jimenez &lt;mjimenez@fi.upm.es&gt;</authors>
+            <contributors>Álvaro Arranz &lt;aarranz@fi.upm.es&gt;</contributors>
+            <email>wirecloud@conwet.com</email>
             <image>images/chat_logo.png</image> <!-- 170x80 -->
             <description>Basic chat functionality and WireCloud features demonstrator</description>
             <longdescription>README.md</longdescription>
-            <license>AGPLv3+ w/linking exception</license>
-            <licenseurl>http://www.gnu.org/licenses/agpl-3.0.html</licenseurl>
+            <license>Apache License 2.0</license>
+            <licenseurl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseurl>
             <doc>doc/developer-guide.md</doc>
-            <changelog>doc/changelog.md</changelog>
         </details>
         <contents src="index.html" useplatformstyle="true"/>
         <rendering width="5" height="24"/>
