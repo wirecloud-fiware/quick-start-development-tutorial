@@ -16,8 +16,8 @@
         <feature name="NGSI"/>
     </requirements>
     <preferences>
-        <preference name="ngsi_server" type="text" label="NGSI server URL" description="URL of the Orion Context Broker to use for retrieving entity information" default="http://orion.lab.fi-ware.org:10026/"/>
-        <preference name="ngsi_proxy" type="text" label="NGSI proxy URL" description="URL of the PubSub Context Broker proxy to use for receiving notifications about changes" default="https://ngsiproxy.lab.fi-ware.org/"/>
+        <preference name="ngsi_server" type="text" label="NGSI server URL" description="URL of the Orion Context Broker to use for retrieving entity information" default="http://orion.lab.fiware.org:10026/"/>
+        <preference name="ngsi_proxy" type="text" label="NGSI proxy URL" description="URL of the PubSub Context Broker proxy to use for receiving notifications about changes" default="https://ngsiproxy.lab.fiºware.org/"/>
         <preference name="chatroom" type="text" label="Chat room" description="Chat room to send and receive messages" default="initial-room"/>
     </preferences>
     <wiring>

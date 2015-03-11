@@ -35,12 +35,12 @@ The widget has some preferences for easy indicating the URLs of the NGSI server 
             <preference name="ngsi_server" 
                 type="text" label="NGSI server URL" 
                 description="URL of the Orion Context Broker to use for retrieving entity information" 
-                default="http://orion.lab.fi-ware.org:10026/"/>
+                default="http://orion.lab.fiware.org:10026/"/>
             <preference name="ngsi_proxy" 
                 type="text" 
                 label="NGSI proxy URL" 
                 description="URL of the PubSub Context Broker proxy to use for receiving notifications about changes" 
-                default="https://ngsiproxy.lab.fi-ware.org/"/>
+                default="https://ngsiproxy.lab.fiware.org/"/>
             <preference name="chatroom" 
                 type="text" 
                 label="Chat room" 
